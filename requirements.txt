@@ -1,0 +1,5 @@
+dlib
+pygame
+numpy
+opencv-python
+PyOpenGL == 3.1.5
