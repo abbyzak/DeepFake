@@ -1,9 +1,10 @@
 ## How to use it ##
-0. Download preTrained model from my google drive (https://drive.google.com/file/d/1pxiAR5M4PMOEnLEhLHgCIuYrDt9zuTet/view?usp=sharing) and place it alognside ReadMe.md in parent folder
-1. You should be able to automatically install the libraries by running `pip install -r requirements.txt`
-2. Copy the picture of face in data folder and change the name of image in main.py line 16 AS-> image_name = filer.path.join(filer.path.dirname(__file__), "..", "data", "baby.webp") #change baby.webp to your image name 
-3. Copy sample video in Main folder and change the name of video in main.py line 17 AS-> cap = CompVisi.VideoCapture('sampleVid.webm') ##change sampleVid.webp to your video
-4. To start the program you will have to run a Python script named main.py from terminal by typing 'ipython main.py'
+0. Needed CMake for building of dlib successfully 
+1. Download preTrained model from my google drive (https://drive.google.com/file/d/1pxiAR5M4PMOEnLEhLHgCIuYrDt9zuTet/view?usp=sharing) and place it alognside ReadMe.md in parent folder
+2. You should be able to automatically install the libraries by running `pip install -r requirements.txt`
+3. Copy the picture of face in data folder and change the name of image in main.py line 16 AS-> image_name = filer.path.join(filer.path.dirname(__file__), "..", "data", "baby.webp") #change baby.webp to your image name 
+4. Copy sample video in Main folder and change the name of video in main.py line 17 AS-> cap = CompVisi.VideoCapture('sampleVid.webm') ##change sampleVid.webp to your video
+5. To start the program you will have to run a Python script named main.py from terminal by typing 'ipython main.py'
 
 
 ##Once that is finished and everything is initialized the Video start converting. For each captured Frame from video the following steps are taken:
